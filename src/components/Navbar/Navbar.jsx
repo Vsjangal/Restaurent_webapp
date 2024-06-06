@@ -11,7 +11,10 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app log" />
+        <img
+          src={images.rest_logo}
+          alt="app log"
+        />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -31,11 +34,17 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
+        <a
+          href="#login"
+          className="p__opensans"
+        >
           Log In/ Register
         </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a
+          href="/"
+          className="p__opensans"
+        >
           Book Table
         </a>
       </div>
@@ -55,27 +64,42 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home" onClick={() => setToggleMenu(false)}>
+                <a
+                  href="#home"
+                  onClick={() => setToggleMenu(false)}
+                >
                   Home
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={() => setToggleMenu(false)}>
+                <a
+                  href="#about"
+                  onClick={() => setToggleMenu(false)}
+                >
                   About
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
+                <a
+                  href="#menu"
+                  onClick={() => setToggleMenu(false)}
+                >
                   Menu
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#award" onClick={() => setToggleMenu(false)}>
+                <a
+                  href="#award"
+                  onClick={() => setToggleMenu(false)}
+                >
                   Awards
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                <a
+                  href="#contact"
+                  onClick={() => setToggleMenu(false)}
+                >
                   Contact
                 </a>
               </li>

@@ -19,7 +19,10 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        <img
+          src={images.rest_logo}
+          alt="footer_logo"
+        />
         <p className="p__opensans">
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
@@ -27,7 +30,7 @@ const Footer = () => (
         <img
           src={images.spoon}
           className="spoon__img"
-          style={{ marginTop: 15 }} 
+          style={{ marginTop: 15 }}
           alt=""
         />
         <div className="app__footer-links_icons">
