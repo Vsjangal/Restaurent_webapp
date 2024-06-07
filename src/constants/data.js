@@ -59,23 +59,27 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Michelin Stars",
+    subtitle:
+      "Top honors for exceptional dining experiences, awarded by the Michelin Guide.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "James Beard Awards",
+    subtitle:
+      "Prestigious recognition for outstanding chefs, restaurants, and culinary professionals.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AAA Diamond Ratings",
+    subtitle:
+      "Awards for restaurants meeting high standards of service and quality, recognized by the Indian Automobile Association.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "TripAdvisor Certificates of Excellence",
+    subtitle:
+      "Recognition for consistently excellent reviews and ratings from travelers on TripAdvisor.",
   },
 ];
 
