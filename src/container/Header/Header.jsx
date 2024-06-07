@@ -20,12 +20,12 @@ const Header = () => (
         masterpiece crafted with passion and precision. Join us for an
         unforgettable dining experience today!
       </p>
-      <button
+      <a href="#menu"
         type="button"
         className="custom__button"
       >
         Explore Menu
-      </button>
+      </a>
     </div>
 
     <div className="app__wrapper_img">

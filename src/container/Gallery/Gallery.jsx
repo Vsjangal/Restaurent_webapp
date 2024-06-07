@@ -18,7 +18,7 @@ const galleryImages = [
 
 const Gallery = () => {
   const scrollRef = useRef(null);
-
+  
   const scroll = (direction) => {
     const { current } = scrollRef;
 
@@ -34,23 +34,36 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+        <p
+          className="p__opensans"
+          style={{ color: "#AAA", marginTop: "2rem" }}
+        >
+          Explore the culinary wonders and visual delights of Gourmet Heaven
+          through our tantalizing gallery, where every image tells a story of
+          flavor, passion, and culinary artistry.
         </p>
-        <button type="button" className="custom__button">
+        <button
+          type="button"
+          className="custom__button"
+        >
           View More
         </button>
       </div>
 
       <div className="app__gallery-images">
-        <div className="app__gallery-images_container" ref={scrollRef}>
+        <div
+          className="app__gallery-images_container"
+          ref={scrollRef}
+        >
           {galleryImages.map((image, index) => (
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image} alt="gallery" />
+              <img
+                src={image}
+                alt="gallery"
+              />
               <BsInstagram className="gallery__image-icon" />
             </div>
           ))}
