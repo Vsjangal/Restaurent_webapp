@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -34,12 +35,18 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a
-          href="#login"
+        <Link
+          to="/login"
           className="p__opensans"
         >
-          Log In/ Register
-        </a>
+          Log In
+        </Link>
+        <Link
+          to="/register"
+          className="p__opensans"
+        >
+          Register
+        </Link>
         <div />
         <a
           href="/"
