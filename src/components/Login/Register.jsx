@@ -59,7 +59,7 @@ const Register = () => {
         onSubmit={submitHandler}
         className={styles.formContainer}
       >
-        <h2 className={styles.header}>Sign Up</h2>
+        <h2 className={styles.header}>Register</h2>
         <div className={styles.formField}>
           <label>Name : </label>
           <input
@@ -145,7 +145,7 @@ const Register = () => {
         </div>
         <div className={styles.formButtons}>
           <Link to="/login">Login</Link>
-          <button type="submit">Sign Up</button>
+          <button type="submit">Register</button>
         </div>
       </form>
       <ToastContainer />

@@ -110,6 +110,22 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
+              <li className="p__opensans">
+                <a
+                  href="/login"
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Login
+                </a>
+              </li>
+              <li className="p__opensans">
+                <a
+                  href="/register"
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Register
+                </a>
+              </li>
             </ul>
           </div>
         )}

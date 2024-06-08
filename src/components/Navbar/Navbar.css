@@ -76,7 +76,6 @@
   height: 100vh;
   background: var(--color-black);
   transition: 0.5s ease;
-
   flex-direction: column;
   z-index: 5;
 }
@@ -85,7 +84,6 @@
   font-size: 27px;
   color: var(--color-golden);
   cursor: pointer;
-
   position: absolute;
   top: 20px;
   right: 20px;
