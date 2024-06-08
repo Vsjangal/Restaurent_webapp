@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background: url("../../assets/bg.png");
-    min-height: 100vh;
+    height: 89vh;
     align-items: center;
 }
 
@@ -126,6 +126,9 @@ input[type="checkbox"]:focus {
     font-weight: 500;
     transition: all 0.1s ease-in;
     cursor: pointer;
+}
+.topcontainer {
+    max-height: 100vh;
 }
 
 .formButtons button:hover {
