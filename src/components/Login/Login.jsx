@@ -69,6 +69,7 @@ const Login = () => {
                 value={data.email}
                 onChange={changeHandler}
                 onFocus={focusHandler}
+                autoComplete="email"  
               ></input>
               {errors.email && touched.email && <span>{errors.email}</span>}
             </div>
@@ -85,6 +86,7 @@ const Login = () => {
                 value={data.password}
                 onChange={changeHandler}
                 onFocus={focusHandler}
+                autoComplete="current-password"    
               ></input>
               {errors.password && touched.password && (
                 <span>{errors.password}</span>

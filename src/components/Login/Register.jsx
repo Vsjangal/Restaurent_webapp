@@ -40,7 +40,7 @@ const Register = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     if (!Object.keys(errors).length) {
-      notify("You Signed in", "success");
+      notify("You registered in", "success");
     } else {
       notify("invalid data", "error");
       setTouched({
